@@ -203,3 +203,268 @@
   ></script>
   <script src="../scripts/main.js"></script>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>goldenOilRef</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">goldenOilRef</a>
+        <button
+          class="navbar-toggler collapse show"
+          id="menubar"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button
+          type="button"
+          class="navbar-toggler btn-close collapse"
+          id="close"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Close Toggle navigation"
+        ></button>
+
+        <script>
+          const menu = document.getElementById("menubar");
+          const close = document.getElementById("close");
+          menu.addEventListener("click", (el) => {
+            menu.classList.toggle("show");
+            close.classList.toggle("show");
+          });
+          close.addEventListener("click", (el) => {
+            menu.classList.toggle("show");
+            close.classList.toggle("show");
+          });
+        </script>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-inline-flex p-2 justify-content-center w-100">
+            <li class="nav-item p-2">
+              <a class="nav-link active" aria-current="page" href="./home.html"
+                >home</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="./about.html">about</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="../index.html">bitumen price</a>
+            </li>
+            <li class="nav-item p-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">lubricants</a>
+                <a class="dropdown-item" href="../index.html">bitumen price</a>
+                <a class="dropdown-item" href="#">base oil</a>
+              </div>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="./contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <header style="background-image: url(../images/7.jpg)">
+      <div class="overlay"></div>
+      <div class="text-center title p-4">
+        <q class="fs-4">
+          Lighting up lives and paving the world with care,
+          <div class="bg-primary text-light">Golden Oil Refinery</div>
+          , leads the way to a brighter future
+        </q>
+      </div>
+    </header>
+
+    <div class="container text-center">
+      <div class="text text-start p-4 mb-4 mt-4 shadow rounded">
+        <h2 class="text-primary">welcom to Golden Oil Refinery</h2>
+        <p>
+          Golden Oil Refinery is a leader in the energy and industrial sectors,
+          dedicated to refining and delivering high-quality petroleum products
+          that fuel progress and innovation. With a commitment to excellence,
+          sustainability, and global impact, we pave the way for brighter
+          futures by providing essential resources that power industries,
+          connect communities, and drive economic growth. At Golden Oil
+          Refinery, we pride ourselves on our state-of-the-art technologies,
+          environmentally responsible practices, and an unwavering dedication to
+          safety. We aim to create a cleaner, more connected world, ensuring
+          that every road we pave and every product we refine contributes to the
+          betterment of society and the planet.
+        </p>
+        <div class="row justify-content-center row-cols-1 row-cols-lg-2">
+            <!-- <div class="col"><img class="rounded mb-2" style="transition: 1s; width: 100%;height: 200px;object-fit: cover;" src="../images/6.jpg" alt=""></div> -->
+            <!-- <div class="col"><img class="rounded mb-2" style="transition: 1s; width: 100%;height: 200px;object-fit: cover;" src="../images/4.jpg" alt=""></div> -->
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+                </div>
+            
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../images/1.jpg" class="d-block w-100 rounded mb-2" style="transition: 1s; width: 100%;height: 200px;object-fit: cover;" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/6.jpg" class="d-block w-100 rounded mb-2" style="transition: 1s; width: 100%;height: 200px;object-fit: cover;" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/5.jpg" class="d-block w-100 rounded mb-2" style="transition: 1s; width: 100%;height: 200px;object-fit: cover;" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> 
+        </div>
+      </div>
+    
+    
+    </div>
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" class="justify-content-center align-items-center btn btn-primary p-4 rounded-circle" style="position: fixed;bottom: 15px;right: 15px;width: 50px;height: 50px;z-index: 2500;display: none;">
+    <i class='fas fa-angle-up'></i>
+  </button>
+
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row row-cols-3 justify-content-around align-items-center">
+          <!-- Copyright -->
+          <div
+            class="text-center p-3 mb-3 w-50"
+            style="background-color: rgba(0, 0, 0, 0.05)"
+          >
+            <p>
+                goldenOilRef.com
+            </p>
+            <a
+              class="text-body"
+              href="https://goldenOilRef.com/"
+              style="
+                text-decoration: none;
+                color: #2196f3 !important;
+                font-weight: bold;
+              "
+              >©Copyright 2025</a
+            >
+          </div>
+          <!-- Copyright -->
+          <div class="row row-cols-3 row-cols-md-3 row-cols-lg-3 text-center justify-content-center">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a class="fs-4">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a class="fs-4 mb-0">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a class="fs-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+          </div>
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../scripts/main.js"></script>
+</html>
+>>>>>>> 5b9d6e8a5eec659ae907396a29f53b82ddab4a20
